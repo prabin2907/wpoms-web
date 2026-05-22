@@ -33,4 +33,4 @@ jobs:
             sudo docker build -t wpoms_web .
 
             # 5. Run the new container (port 3000 for React)
-            sudo docker run -d --name wpoms_web -p 3000:3003 wpoms_web
+            sudo docker run -d --name wpoms_web -p 5173:3003 wpoms_web
